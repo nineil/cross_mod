@@ -1,8 +1,12 @@
 # cross_mod dataset
 
 ### Data
-Our data is composed of two files: ads.zip and coco.zip. Both files can be downloaded running download.sh script.
+Our data is composed of two files: ads.zip and coco.zip. Both files can be downloaded by our script:
 
+  ```bash
+  bash download.sh
+  ```
+  
 Each dataset is composed of two folders ims and bv, and a data.csv file. Ims folder contains images for our experiment, and bv folder contains the bubble_view visualizations (gaze maps). Also, data.csv contains the fields:
 
 - task_id: identifier for task submitted to amazon mechanical turk.
@@ -23,7 +27,4 @@ and you should obtain the following visualization:
 ### Reference
 If you use this data, please cite our work:
 
-  ```bash
-  Cross-Modality Personalization for Retrieval. Nils Murrugarra-Llerena and Adriana Kovashka. To appear, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2019.
-  ```
-
+Cross-Modality Personalization for Retrieval. Nils Murrugarra-Llerena and Adriana Kovashka. To appear, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2019.
