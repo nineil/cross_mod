@@ -27,6 +27,8 @@ and you should obtain the following visualization:
   <img src="example.png">
 </p>
 
+The image title is our text annotation and the legend is the annotator personality, where 1: disagree strongly, 2: disagree a little, 3: neither agree or disagree, 4: agree a little, and 5: agree strongly. Also, red pixels are more salient regions, as opposed to blue pixels.
+
 ### Reference
 If you use this data, please cite our work:
 
