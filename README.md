@@ -25,6 +25,10 @@ We also provide an example to visualize our annotations. Please, run:
 and you should obtain the following visualization:
 ![Example](example.png)
 
+<p align="center">
+  <img width="460" height="300" src="example.png">
+</p>
+
 ### Reference
 If you use this data, please cite our work:
 
