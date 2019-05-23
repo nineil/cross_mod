@@ -16,7 +16,7 @@ def textonly(ax, txt, fontsize = 8, loc = 2, *args, **kwargs):
 
 if __name__ == "__main__":
     # parameters
-    dataset = 'ads' # coco | ads
+    dataset = 'coco' # coco | ads
 
     # main
     shared_folder = './'
