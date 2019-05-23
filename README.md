@@ -1,4 +1,4 @@
-# cross_mod dataset
+# Cross-modality dataset
 
 ### Data
 Our data is composed of two files: ads.zip and coco.zip. Both files can be downloaded by our script:
