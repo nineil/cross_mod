@@ -27,4 +27,4 @@ and you should obtain the following visualization:
 ### Reference
 If you use this data, please cite our work:
 
-Cross-Modality Personalization for Retrieval. Nils Murrugarra-Llerena and Adriana Kovashka. To appear, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2019.
+**Cross-Modality Personalization for Retrieval**. Nils Murrugarra-Llerena and Adriana Kovashka. To appear, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**), June 2019.
