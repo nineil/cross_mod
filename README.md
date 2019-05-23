@@ -12,3 +12,18 @@ Each dataset is composed of two folders ims and bv, and a data.csv file. Ims fol
 - mturker_id: identifier of amazon mechanical turk worker.
 
 ### Example
+We also provide an example to visualize our annotations. Please, run:
+
+  ```bash
+  python plot_data.py
+  ```
+
+and you should obtain the following visualization:
+
+### Reference
+If you use this data, please cite our work:
+
+  ```bash
+  Cross-Modality Personalization for Retrieval. Nils Murrugarra-Llerena and Adriana Kovashka. To appear, Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2019.
+  ```
+
