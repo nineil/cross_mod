@@ -25,7 +25,7 @@ if __name__ == "__main__":
 
     # example visualization [input]
     ix_row = 20 #0 | 20
-    user_id = df['task_id'][ix_row]
+    task_id = df['task_id'][ix_row]
     image = df['image'][ix_row]
     ad_msg = df['ad_msg'][ix_row]
     per_ks = ['reserved', 'trusting', 'lazy', 'relaxed', 'artistic', 'outgoing', 'fault', 'job', 'nervous', 'imagination']
@@ -35,11 +35,7 @@ if __name__ == "__main__":
     per_str = reduce(lambda x, y: x +y, per_str)
     per_str = per_str[:-1]
 
-    sp = image.split('/')
-    prefix = sp[0]
-    suffix = '/'.join(sp[1:])
-
-    bv_name = shared_folder + '/bv/' + prefix + '/' + suffix.replace('.jpg', '') + '_' + str(user_id) + '.mat' # image + user_id
+    bv_name = shared_folder + '/bv/' + image.replace('.jpg', '') + '_' + str(task_id) + '.mat' # image [no extension] + task_id
     im_name = shared_folder + '/ims/' + image
     mask = sio.loadmat(bv_name)['hm']
 
