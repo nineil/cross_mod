@@ -15,6 +15,8 @@ Each dataset is composed of two folders *ims* and *bv*, and a *data.csv* file. *
 - personality: vector for personality survey.
 - mturker_id: identifier of amazon mechanical turk worker.
 
+In order to get the gaze map from a row annotation in the CSV file, it follow the route ./bv/[IMAGE_NAME_NO_EXTENSION]_[TASK_ID].mat.
+
 ### Example
 We also provide an example to visualize our annotations. Please, run:
 
